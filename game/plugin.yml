@@ -1,0 +1,10 @@
+name: Totems
+main: com.justinoboyle.totems.game.core.Totems
+version: 1.0.0
+author: Justin O'Boyle at www.justinoboyle.com
+load: POSTWORLD
+commands:
+     saveloc: 
+     tpto: 
+     kit: 
+     wrapper-talk: 

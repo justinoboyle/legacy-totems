@@ -1,0 +1,23 @@
+{
+  "storageFolder": {
+    "path": "servers\\bungeecord"
+  },
+  "name": "bungeecord",
+  "amount": 1,
+  "startWithManager": true,
+  "launchCommand": "java -jar",
+  "launchOptions": [
+    "-Xmx1G",
+    "-Xms1G",
+    "bungeecord.jar"
+  ],
+  "autoRelaunch": true,
+  "hasHeartbeat": true,
+  "includedFiles": [
+    {
+      "path": "jars\\bungeecord.jar"
+    }
+  ],
+  "listenerType": "JAVA",
+  "shutdownCommand": "end"
+}

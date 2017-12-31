@@ -1,0 +1,24 @@
+{
+  "storageFolder": {
+    "path": "servers\\lobbyserver"
+  },
+  "name": "lobbyserver",
+  "amount": 1,
+  "startWithManager": true,
+  "launchCommand": "java -Dcom.mojang.eula.agree=true -jar",
+  "launchOptions": [
+    "-Xmx1G",
+    "-Xms1G",
+    "spigot.jar",
+    "--port 20$id",
+    "--online-mode false"
+  ],
+  "autoRelaunch": true,
+  "hasHeartbeat": true,
+  "includedFiles": [
+    {
+      "path": "jars\\spigot.jar"
+    }
+  ],
+  "listenerType": "SPIGOT"
+}

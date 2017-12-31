@@ -1,0 +1,11 @@
+name: TotemsLobby
+main: com.justinoboyle.totems.lobby.TotemsLobby
+version: 1.0.0
+depend: [TotemsCore]
+commands:
+    saveloc: 
+    serialize: 
+    sidebar: 
+    xp: 
+    roadto75: 
+    downto0: 

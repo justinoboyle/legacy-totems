@@ -1,0 +1,23 @@
+{
+  "storageFolder": {
+    "path": "servers\\redirect"
+  },
+  "name": "redirect",
+  "amount": 1,
+  "startWithManager": true,
+  "launchCommand": "java -jar",
+  "launchOptions": [
+    "-Xmx512M",
+    "-Xms512M",
+    "redirect.jar"
+  ],
+  "autoRelaunch": true,
+  "hasHeartbeat": false,
+  "includedFiles": [
+    {
+      "path": "jars\\redirect.jar"
+    }
+  ],
+  "listenerType": "JAVA",
+  "shutdownCommand": "stop"
+}

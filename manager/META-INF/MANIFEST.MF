@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Class-Path: . manager_lib/gson-2.3.1.jar manager_lib/javassist.jar man
+ ager_lib/reflections-0.9.5.jar manager_lib/reflections-0.9.9-RC1-uber
+ jar.jar manager_lib/slf4j-api-1.7.12.jar manager_lib/commons-io-2.4.j
+ ar
+Main-Class: com.justinoboyle.servermanager.core.ServerManagerLauncher
+

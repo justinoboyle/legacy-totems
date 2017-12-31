@@ -1,0 +1,27 @@
+{
+  "storageFolder": {
+    "path": "servers\\gameserver"
+  },
+  "name": "gameserver",
+  "amount": 1,
+  "startWithManager": true,
+  "launchCommand": "java -Dcom.mojang.eula.agree=true -jar",
+  "launchOptions": [
+    "-Xmx1G",
+    "-Xms1G",
+    "spigot.jar",
+    "--port 10$id",
+    "--online-mode false"
+  ],
+  "autoRelaunch": true,
+  "hasHeartbeat": true,
+  "template": {
+    "path": "servers\\gameserver\\template"
+  },
+  "includedFiles": [
+    {
+      "path": "jars\\spigot.jar"
+    }
+  ],
+  "listenerType": "SPIGOT"
+}
